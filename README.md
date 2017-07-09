@@ -1,7 +1,7 @@
 # phone-tablet-master-detail
 This is a basic example of using a Fragment to achieve a master-detail type layout on tablets
 
-![alt text](detail.png)
+![alt text](diagram.png)
 
 The fragment is included using the diagram above. Tablets are detected by using two layout files:
 /res/layout/activity_main.xml (phone layout)
