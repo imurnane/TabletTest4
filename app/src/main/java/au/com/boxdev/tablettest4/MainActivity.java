@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, DetailActivity.class);
             this.startActivity(i);
         } else {
-            // horizontal tablet mode
+            // landscape tablet mode
             getFragmentManager()
                     .beginTransaction()
                     .replace(R.id.fragmentLayout, new DetailFragment()) // .replace or .add
