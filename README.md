@@ -5,8 +5,8 @@ This is a basic example of using a Fragment to achieve a master-detail type layo
 
 The fragment is included using the diagram above. Tablets are detected by using two layout files:
 
-/res/layout/activity_main.xml (phone layout)
-/res/layout-sw600dp-land/activity_main.xml (tablet layout)
+ /res/layout/activity_main.xml (phone layout)
+ /res/layout-sw600dp-land/activity_main.xml (tablet layout)
 
 In the MainActivity class, a tablet can be detected by checking if a view in the xml exists and either starting the activity (phones) or include the Fragment (tablets)
 
