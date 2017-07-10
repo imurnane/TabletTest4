@@ -19,6 +19,12 @@ public class DetailActivity extends AppCompatActivity {
                     .add(android.R.id.content, new DetailFragment())
                     .commit();
         }
+
+        /*
+        NOTE: android.R.id.content just points to the root view.
+        In this case it's empty, so the view returned from DetailFragment
+        becomes the root layout
+         */
     }
 
 }
