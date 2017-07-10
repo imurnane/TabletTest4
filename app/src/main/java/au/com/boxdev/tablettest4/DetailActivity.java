@@ -13,6 +13,8 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // savedInstanceState is only null on first load or after being destroyed
+        // this prevents the Fragment from being added multiple times
         if (savedInstanceState == null) {
             getFragmentManager()
                     .beginTransaction()
